@@ -7,3 +7,7 @@
    - Preview Image
    - small description
 4. Add each page card to Container (database? or self contained?)
+   - Reacreated page
+   - Restyled page
+   - Recreated page is what shows first, restyled site hidden. Their will be a toggle switch to switch bewteen restyle & recreate pages
+5. How to

@@ -1,10 +1,11 @@
 // Component for Homepage
+import SitesContainer from "../SitesContainer/SitesContainer";
 
 function Homepage() {
   return (
     <div>
-      <h1>Welcome!</h1>
-      <p>test2</p>
+      <h1>Frontend Recreations</h1>
+      <SitesContainer />
     </div>
   );
 }
