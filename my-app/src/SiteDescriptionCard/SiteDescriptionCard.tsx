@@ -1,4 +1,5 @@
 // Commponent for site description card
+import { Link } from "react-router-dom";
 
 function SiteDescriptionCard() {
   return (
@@ -7,6 +8,7 @@ function SiteDescriptionCard() {
       <p>Some site description</p>
       <p>IMAGE</p>
       {/* Hard coded link for the moment */}
+      <Link to={"/testSiteOne"}>Link</Link>
     </div>
   );
 }
