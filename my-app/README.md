@@ -1,46 +1,10 @@
-# Getting Started with Create React App
+# frontend_recreations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project I've wanted to start for a while. I will find sites I like (or don't) and recreate them to the best of my abilities, then improve on them as I see it. Inspiration from Youtube channel Hyperplex, who does a similar thing.
 
-## Available Scripts
+I've decided to do this project as I believe my skillset lies in frontend development, and this project will be a good way of expanding on that whilst learning other things I'm not fully comfortable with yet. Therefore I have decided to create this project in React, Typescript, it will be fully tested using Jest and Cypress. I'm sure there will be some minor backend functionality and some interactive elements. So all in all it should be a gfood all round project.
 
-In the project directory, you can run:
+## BLOG
+10/8 - Today I managed to get the functionality of page swaps from restyle/recreate when a button is pressed. I learnt about operators and cemented some more knowledge about use states
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+11/8 - Started styling the homepage. I wanted to add a couple more display cards so I can style them, which led me to adding the props, which then led me to adding some typescript. The typescript ended up taking quite a while, I was adding it correctly but it kept moving the dreaded red line issues into the parent element. This didn't feel quite right so I reset myself, did some research and realised I was not passing the props correctly. Once I fixed this error I had no more issues, I can now add as many cards as needed using the props and my imported types from my types file. The next issue is to figure out how to use the site diplay card again and again instead of coding it everytime.
