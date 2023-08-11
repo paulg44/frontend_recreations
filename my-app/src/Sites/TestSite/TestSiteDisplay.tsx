@@ -1,6 +1,7 @@
 // Component to display the recreation and restyle
 import "./TestSiteDisplay.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import TestSiteRecreate from "./TestSiteRecreate";
 import TestSiteRestyle from "./TestSiteRestyle";
 
@@ -19,7 +20,10 @@ function TestSiteDisplay() {
   }
 
   return (
+    // Back button
+
     <div className="testSiteDisplay">
+      <Link to={"/"}>Home</Link>
       {isRecreateVisible ? (
         <div className="testSiteRecreate">
           <TestSiteRecreate />
