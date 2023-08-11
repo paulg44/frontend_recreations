@@ -1,14 +1,20 @@
 // Commponent for site description card
 import { Link } from "react-router-dom";
+import "./SiteDescritpionCard.css";
+import { DescriptionCardProps } from "../types";
 
-function SiteDescriptionCard() {
+function SiteDescriptionCard({
+  title,
+  description,
+  linkTo,
+}: DescriptionCardProps) {
   return (
-    <div>
-      <h2>Some Site</h2>
-      <p>Some site description</p>
-      <p>IMAGE</p>
+    <div className="descriptionCard">
+      <h2>{title}</h2>
+      <p>{description}</p>
+      {/* <img src={img} alt={alt}></img> */}
       {/* Hard coded link for the moment */}
-      <Link to={"/testSiteOne"}>Link</Link>
+      <Link to={linkTo}>Link</Link>
     </div>
   );
 }
