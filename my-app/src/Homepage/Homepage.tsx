@@ -12,7 +12,9 @@ function Homepage() {
       }}
     >
       <h1>Frontend Recreations</h1>
-      <SitesContainer />
+      <div>
+        <SitesContainer />
+      </div>
     </div>
   );
 }

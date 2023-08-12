@@ -1,4 +1,5 @@
 // Component to hold all the recreated sites
+import "./SitesContainer.css";
 import SiteDescriptionCard from "../SiteDescriptionCard/SiteDescriptionCard";
 
 function SitesContainer() {
@@ -9,6 +10,16 @@ function SitesContainer() {
         title="Test One"
         description="TestOne description"
         linkTo="./testSiteOne"
+      />
+      <SiteDescriptionCard
+        title="Test Two"
+        description="TestTwo description"
+        linkTo="./testSiteTwo"
+      />
+      <SiteDescriptionCard
+        title="Uber Eats"
+        description="TestTwo description"
+        linkTo="./UberEats"
       />
       <SiteDescriptionCard
         title="Test Two"
