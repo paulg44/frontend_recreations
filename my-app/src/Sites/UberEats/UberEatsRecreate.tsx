@@ -1,5 +1,6 @@
 // Component for uber eats recreation
 import uberEatsImage from "../../IMG/ubereats_homepage-PhotoRoom.png";
+import "./UberEatsRecreate.css";
 
 function UberEatsRecreate() {
   return (
